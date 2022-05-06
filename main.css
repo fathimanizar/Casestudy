@@ -1,0 +1,26 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+table
+{
+    /* border:1px solid black; */
+    margin-left: 10%;
+    width:80%;
+}
+#box
+{
+    float:right;
+}
+#title{
+   
+    color:chocolate;
+    font-size:larger;
+}
+
+#status{
+    float:right;
+    color:chocolate;
+    font-size:larger;
+}
