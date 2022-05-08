@@ -11,7 +11,7 @@ var pwd=document.getElementById("pwd").value;
 
 function redirect()
  {
-    document.write("working");
+    document.write("");
     window.location.assign("main.html");
  }
 
