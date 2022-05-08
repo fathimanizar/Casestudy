@@ -13,21 +13,29 @@ body
 }
 h1
 {
-    color:darkblue;
+    color:darkred;
 }
-
 form
 {
-    margin-top: 20%;
-     
+    margin-top: 7%;
+    border:1px solid white;
+    background-color: white;    
 }
 h3
-{
-   
-    color:darkred;
-    
+{  
+    color:darkred;   
 }
 .mb-3
 {
   color:black;
+}
+#uname
+{
+    width: 50%;
+margin-left: 25%;
+}
+#pwd
+{
+    width: 50%;
+margin-left: 25%;
 }

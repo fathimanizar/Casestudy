@@ -8,6 +8,7 @@ function list()
           var response=JSON.parse(this.responseText);
          
         var output="";
+        var c=0;
         for(var i=0;i<response.length;i++)
         {
           var checkbox;
@@ -16,18 +17,14 @@ function list()
             checkbox=`<input id='box' type='checkbox' checked disabled>`
           }
            else{
-            checkbox=`<input id='box' onclick="find()" type='checkbox' >`
+            checkbox=`<input id='box' onchange="find();" type='checkbox' >`
            }
-           output+="<table><tr><td>"+response[i].title+checkbox+"</td></tr></table";
-            
+           output+="<table><tr><td>"+response[i].id+"&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"+response[i].title+checkbox+"</td></tr></table";
         }
-    
-        display.innerHTML = "<table><tr><th id='title'>Title</th><th id='status'>Status</th></tr></table><br>"+output;
-     
-        }
+        display.innerHTML = "<table><tr><th id='idnum'>Id</th><th id='title'>Title</th><th id='status'>Status</th></tr></table><br>"+output;
+      }
       
-       }
-  
+    }
    xhttp.open("GET","https://jsonplaceholder.typicode.com/todos",true);
    xhttp.send();
 }

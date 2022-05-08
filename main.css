@@ -5,7 +5,6 @@
 
 table
 {
-    /* border:1px solid black; */
     margin-left: 10%;
     width:80%;
 }
@@ -13,14 +12,28 @@ table
 {
     float:right;
 }
-#title{
-   
+#idnum
+{ 
     color:chocolate;
     font-size:larger;
 }
+#title
+{
+    color:chocolate;
+    font-size:larger; 
+}
 
-#status{
+#status
+{
     float:right;
     color:chocolate;
     font-size:larger;
 }
+.nav-item
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:300px;
+}
+
+
+
