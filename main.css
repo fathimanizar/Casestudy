@@ -29,10 +29,19 @@ table
     color:chocolate;
     font-size:larger;
 }
-.nav-item
+.nav-item1
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left:300px;
+    margin-left:20px;
+    font-size: larger;
+   
+}
+.nav-item2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left:50em;
+    font-size: larger;
+   
 }
 
 
