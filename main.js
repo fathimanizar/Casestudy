@@ -29,23 +29,6 @@ function list()
    xhttp.send();
 }
 var c=0;
-// function find()
-// {
-//    var promise= new Promise(function(resolve,reject)
-//   {
-//     c++;
-//     if(c==5)
-//     {
-//       resolve("Congrats. 5 Tasks have been Successfully Completed ");
-//     }
-//   });
-//   promise
-//   .then(function(s){
-//      alert(s);
-//   })
-// }
-  
-
 function find(element) {
   var p = new Promise (function(resolve){
     if(element.checked) {

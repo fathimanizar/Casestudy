@@ -8,12 +8,12 @@ var error=document.getElementById("error");
         redirect();
     else
     {
-        error.textContent = "Please enter a valid email";
+        error.textContent = "Invalid Username or Password";
         error.style.color = "red";
         event.preventDefault();
         return false;
     } 
-        // alert("Invalid username/password");       
+             
 }
 
 function redirect()
