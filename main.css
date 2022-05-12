@@ -5,13 +5,13 @@
 
 table
 {
-    margin-left: 10%;
+    margin-left: 5%;
     width:80%;
 }
-#box
+/* #box
 {
     float:right;
-}
+} */
 #idnum
 { 
     color:chocolate;
@@ -20,7 +20,8 @@ table
 #title
 {
     color:chocolate;
-    font-size:larger; 
+    font-size:larger;
+padding-left: 10%;
 }
 
 #status
@@ -28,12 +29,14 @@ table
     float:right;
     color:chocolate;
     font-size:larger;
+    
 }
 .nav-item1
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      /* margin-left:27em;  */
-    font-size: larger;
+    font-size:x-large;
+    float:right;
     
    
 }
@@ -41,9 +44,19 @@ table
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* margin-left:50em; */
-    font-size: larger;
+    font-size:x-large;
+    float:right;
     
    
+}
+/* .col-lg-6
+{
+    margin-left:5em;
+} */
+.col-lg-2
+{
+    margin-left:95%; 
+  
 }
 
 

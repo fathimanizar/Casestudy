@@ -19,9 +19,9 @@ function list()
            else{
             checkbox=`<input id='box' onchange="find(this);" type='checkbox' >`
            }
-           output+="<table><tr><td>"+response[i].id+"&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"+response[i].title+checkbox+"</td></tr></table";
+           output+="<table><tbody><tr><td>"+"<div class='row'>"+"<div class='col-lg-3'>"+response[i].id+"</div>"+"<div class='col-lg-7'>"+response[i].title+"</div>"+"<div class='col-lg-2'>"+checkbox+"</div>"+"</div>"+"</td></tr></tbody></table>";
         }
-        display.innerHTML = "<table><tr><th id='idnum'>Id</th><th id='title'>Title</th><th id='status'>Status</th></tr></table><br>"+output;
+        display.innerHTML = "<br><table><thead><tr><th id='idnum'><b>Id</b></th><th id='title'><b>Title</b></th><th id='status'><b>Status</b></th></tr></thead></table><br>"+output;
       }
       
     }
