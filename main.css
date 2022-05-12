@@ -32,9 +32,9 @@ table
 .nav-item1
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* margin-left:20px; */
+     margin-left:27em; 
     font-size: larger;
-    float:left;
+    
    
 }
 .nav-item2
@@ -42,7 +42,7 @@ table
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* margin-left:50em; */
     font-size: larger;
-    float:left;
+    
    
 }
 
