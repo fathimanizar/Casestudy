@@ -2,16 +2,6 @@
     padding: 0px;
     margin: 0px;
 }
-
-table
-{
-    margin-left: 5%;
-    width:80%;
-}
-/* #box
-{
-    float:right;
-} */
 #idnum
 { 
     color:chocolate;
@@ -21,42 +11,25 @@ table
 {
     color:chocolate;
     font-size:larger;
-padding-left: 10%;
-}
 
+}
 #status
 {
-    float:right;
     color:chocolate;
-    font-size:larger;
-    
+    font-size:larger;   
 }
 .nav-item1
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     /* margin-left:27em;  */
     font-size:x-large;
-  
-    
-   
+    font-style: italic;
+    float:left;  
 }
 .nav-item2
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* margin-left:50em; */
     font-size:x-large;
-   
-    
-   
-}
-/* .col-lg-6
-{
-    margin-left:5em;
-} */
-.col-lg-2
-{
-    margin-left:95%; 
-  
+    font-style: italic;     
 }
 
 

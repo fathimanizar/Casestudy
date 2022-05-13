@@ -14,14 +14,22 @@ function list()
           var checkbox;
           if(response[i].completed==true)
           {
-            checkbox=`<input id='box' type='checkbox' checked disabled>`
+            checkbox=`<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" checked disabled>`
           }
            else{
-            checkbox=`<input id='box' onchange="find(this);" type='checkbox' >`
+            checkbox=`<input onchange="find(this);" class="form-check-input" type="checkbox" value="" id="flexCheckDefault">`
            }
-           output+="<table><tbody><tr><td>"+"<div class='row'>"+"<div class='col-lg-3'>"+response[i].id+"</div>"+"<div class='col-lg-7'>"+response[i].title+"</div>"+"<div class='col-lg-2'>"+checkbox+"</div>"+"</div>"+"</td></tr></tbody></table>";
+
+           output += `   <tr>
+                            <th scope="row"> ${response[i].id}</th>
+                            <td>${response[i].title}</td>
+                            <td>${checkbox}</td>
+                        </tr>`
         }
-        display.innerHTML = "<br><table><thead><tr><th scope='col' id='idnum'><b>Id</b></th><th scope='col' id='title'><b>Title</b></th><th scope='col' id='status'><b>Status</b></th></tr></thead></table><br>"+output;
+
+        console.log(output);
+
+        display.innerHTML = `<br><table class = "table table-hover table-striped"><thead><tr><th scope='col' id='idnum'><b>Id</b></th><th scope='col' id='title'><b>Title</b></th><th scope='col' id='status'><b>Status</b></th></tr></thead> <tbody> ${output} </tbody></table>` ;
       }
       
     }
@@ -51,3 +59,4 @@ function find(element) {
 
 }
          
+
